@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="fungsi.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Berat Badan Ideal</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <form name="kalk">
+                <h2>Berat Badan Ideal</h2>
+                <label>Masukan Berat Badan Anda (kg) </label><br>
+                <input type="text" size="11" name="berat"><br>
+                <label>Masukan Tinggi Badan Anda (cm)</label><br>
+                <input type="text" size="11" name="tinggi"><br>
+                <label>Jenis Kelamin</label><br>
+                <select id="gender">
+                    <option value="1">Laki-Laki</option>
+                    <option value="2">Perempuan</option>
+                </select><br>
+                <div class="btn">
+                    <button type="button" value="Hitung" onclick="hitung()">Hitung</button>
+                </div>
+                
+            </form>
+            <p>Berat badan Ideal Anda : </p>
+            <p id="hasilideal"></p>
+            <p>Index Massa Tubuh :</p>
+            <p id="hasilbmi"></p>
+            <p id="hasilbmi2"></p>
+        </div>
+    </div>
+</body>
+</html>
