@@ -59,7 +59,7 @@ h2{
     text-align: center;
 }
 #memo{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: small;
     margin-top: 10px;
 }
@@ -69,4 +69,8 @@ h2{
          url('montserratalternates-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+a{
+    margin: 5px;
+    font-size: small;
 }
